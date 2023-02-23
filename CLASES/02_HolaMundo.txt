@@ -1,0 +1,10 @@
+21-02-2023
+
+-----IMPRESION DE INFORMACION-----
+
+python utiliza la instruccion print para imprimir en la terminal cualquier tipo de informacion.
+
+Ejemplo: Imprimir la cadena 
+         "hola mundo"
+
+>> print("hola mundo")

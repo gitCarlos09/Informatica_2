@@ -1,0 +1,31 @@
+16-02-2023
+
+Visual studio code es una aplicacion para programar de una manera sencilla,con una interfaz
+simple y practica, ademas de poder conectarse con github, una pagina donde se puede subir los 
+trabajos realizados en visual studio code ya sea en lenguaje de programacion Python
+u otros, incluso otras personas pueden ver los trabajos realizados en github.visual ademas
+tiene extensiones para facilitar la programacion.
+
+CONFIGURACION Visual - GIT -github
+1) INSTALAR:
+    - Visual Studio Code
+    - Git 
+    - Python
+
+2) Crear cuenta en la pagina oficial github
+
+3) configurar git en Visual Studio code
+    se ejecuta en la terminal:
+    - git config --global user.name "gitjfredy"
+    - git config --global user.email "jolopeze@unal.edu.co"
+
+4) Crear repositorio local
+    - creamos una carpeta llamada INFORMATICA_2
+    - Crear subcarpetas CLASES, EJERCICIOS, INFORMES
+    - Ir al icono source code, clickeamos + y luego clickeamos el boton commit con un mensaje.
+
+5) Sincronizar el repositorio local en la nube
+    - Clickeamos el boton <publish branch>
+    - Automaticamente se abre una pestaña en gitHub en la cual autorizamos subir el repositorio a la nube
+
+ 
