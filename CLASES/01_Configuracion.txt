@@ -16,8 +16,8 @@ CONFIGURACION Visual - GIT -github
 
 3) configurar git en Visual Studio code
     se ejecuta en la terminal:
-    - git config --global user.name "gitjfredy"
-    - git config --global user.email "jolopeze@unal.edu.co"
+    - git config --global user.name "gitCarlos09"
+    - git config --global user.email "jhcastillop@unal.edu.co"
 
 4) Crear repositorio local
     - creamos una carpeta llamada INFORMATICA_2
