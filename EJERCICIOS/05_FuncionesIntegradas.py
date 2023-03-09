@@ -69,10 +69,33 @@ print(list(range(-10, 1)))       #Se puede omitir si el salto es 1
        d) -100, -95, -90, ... 100
        Use range(<inicio>, <fin>, <salto>), para visualizarlo utilice list(<secuencia>)"""
 
+secuencia1= range(1, 501, 1)
+secuencia2= range(2, 201, 2)
+secuencia3= range(100, -1, -1)
+secuencia4= range(-100, 101, 5)
+
+print("Secuencia 1:", list(secuencia1))
+print("Secuencia 2:", list(secuencia2))
+print("Secuencia 3:", list(secuencia3))
+print("Secuencia 4:", list(secuencia4))
 
 """Formatear  los siguientes elementos:
       a) 0.52941, 2.389, 3.5, 200000 ==> entero
                                          flotante 2 decimales, 
                                          flotante 5 decimales,
                                          notación científica 2 decimales, 
+"""
+
+n1= 0.52941 
+n2= 2.389
+n3= 3.5
+n4= 200000
+
+print("Número 1: ", n1, int(n1), round(n1, 2), round(n1, 5), format(n1, ".2E"), sep="   ")
+print("Número 2: ", n2, int(n2), round(n2, 2), round(n2, 5), format(n2, ".2E"), sep="   ")
+print("Número 3: ", n3, int(n3), round(n3, 2), round(n3, 5), format(n3, ".2E"), sep="   ")
+print("Número 4: ", n4, int(n4), round(n4, 2), round(n4, 5), format(n4, ".2E"), sep="   ")
+
+"""
+Utilizar el listado 
 """

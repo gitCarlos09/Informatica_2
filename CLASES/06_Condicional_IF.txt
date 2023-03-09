@@ -1,0 +1,31 @@
+07 - 03 - 2023
+
+----- Condicional IF -----
+
+Es una de las sentencias básicas en Python. 
+Si una condición es verdadera , las instrucciones siguientes serán ejecutadas. 
+En caso contrario deben ser evaluadas las condiciones en otros casos. 
+
+La sintaxis es la siguiente: 
+
+if <condición>:
+    <sentencias>
+else: 
+    <sentencias>
+
+if <condición>:
+    <sentencias>
+elif <condición2>:
+    <sentencias>
+elif <condición3>:
+    <sentencias>
+else
+    <sentencias>
+
+Ejemplo: utilice una edad arbitraria. Luego determine:
+         Si la edad corresponde a una persona mayor de edad o no.
+
+if (edad >= 18):
+    print("La persona es mayor de edad")
+else:
+    print("La persona es menor de edad")
