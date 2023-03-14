@@ -458,16 +458,16 @@ Fri_Ida= Pay/2
 Mon_Back= Pay/4
 Tue_Back= Pay
 Wed_Back= Pay/4
-Thu_Ida=  Pay/2
-Fri_Ida=  10000/6
+Thu_Back=  Pay/2
+Fri_Back=  10000/6
 
 # 1. A cada uno le calculamos lo que pagaron en la semana.
-Juan    = Mon_Ida + Mon_Back + Tue_Ida + Tue_Back + Wed_Ida + Wed_Back + Thu_Ida + Fri_Ida
-Camila  = Mon_Ida + Mon_Back + Wed_Ida + Fri_Ida  + Fri_Ida
-Jose    = Mon_Ida + Mon_Back + Wed_Ida + Wed_Back + Thu_Ida + Thu_Ida + Fri_Ida
-Maria   = Mon_Ida + Tue_Ida  + Wed_Ida + Wed_Back + Fri_Ida
-Esteban = Mon_Ida + Thu_Ida  + Thu_Ida + Fri_Ida  + Fri_Ida
-Angie   = Mon_Ida + Mon_Back + Wed_Ida + Wed_Back + Fri_Ida
+Juan    = Mon_Ida + Mon_Back + Tue_Ida  + Tue_Back + Wed_Ida + Wed_Back + Thu_Ida + Fri_Ida
+Camila  = Mon_Ida + Mon_Back + Wed_Ida  + Fri_Ida  + Fri_Back
+Jose    = Mon_Ida + Mon_Back + Wed_Ida  + Wed_Back + Thu_Ida + Thu_Back + Fri_Ida
+Maria   = Mon_Ida + Tue_Ida  + Wed_Ida  + Wed_Back + Fri_Ida
+Esteban = Mon_Ida + Thu_Ida  + Thu_Back + Fri_Ida  + Fri_Back
+Angie   = Mon_Ida + Mon_Back + Wed_Ida  + Wed_Back + Fri_Ida
 
 # 2. Pago semanal en el diccionario pedido
 diccionarioPagos={"Angie": Angie, "Camila": Camila, "Esteban": Esteban, "Jose": Jose, "Juan": Juan, "Maria": Maria}
