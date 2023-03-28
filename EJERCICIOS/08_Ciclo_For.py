@@ -114,7 +114,7 @@ def imprimir_matriz(matriz):
             print(matriz[j][i], end=" ")
         print()
 
-matriz_2 = [[1, 6, 2, 2], [7, 4, 3, 8], [6, 50, 10, 11]]
+matriz_2 = [[1, 6, 2], [2, 7, 4], [3, 8, 6], [50, 10, 11]]
 imprimir_matriz(matriz_2)
 
 #==> EJERCICIO 3
