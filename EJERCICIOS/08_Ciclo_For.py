@@ -77,7 +77,7 @@ Determine el par de puntos que se encuentran más cercanos.
 Almacene la respuesta en un string llamado parCercano. Ejemplo:
 parCercano = "P2-P3" 
 """
-
+"""
 puntos = {'P1': (2, 2, 3), 'P2': (2, 3, 4), 'P3': (1, 1, 3), 'P4': (0.5, 0.5, 2), 'P5': (1, 2, 1), 
 'P6': (1, 0.5, 1), 'P7': (3, 2, 0.5), 'P8': (3, 1, 2), 'P9': (0, 0, 0), 'P10': (2, 0, 0.5)}
 
@@ -94,9 +94,8 @@ for i in puntos:
                 punto1 = i
                 punto2 = j
 
-print("La distancia mínima entre dos puntos es:", dist_minima)
-print("Los puntos correspondientes son:", punto1, "y", punto2)
-
+print("El par mas cercano es el punto", punto1, "-", punto2, "con", dist_minima)
+"""
 #==> EJERCICIO 3 
 """
 matrix = [[1,  2,  3, 50],
