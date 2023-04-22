@@ -1,0 +1,18 @@
+13 - Abril - 2023
+
+
+----- Funciones -----
+Es parte del paradigma de programacion funcional que sirve para hacer un código más estructurado
+y evitar las repeticiones de código o procedimientos. 
+
+
+def <NombreFuncion> (<parametro1>, <parametro2>, ...):
+    <sentencias>
+    return <valor de retorno>
+
+Nombre: encontrardivisores
+parametros: numero_entero
+retorno: lista_divisores
+
+def encontrardivisores (numero_entero):
+
