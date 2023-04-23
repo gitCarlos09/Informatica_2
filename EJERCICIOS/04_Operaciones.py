@@ -125,3 +125,11 @@ a razón de 5m/s². Si el segundo de ellos empieza su recorrido 10 segundos desp
  1 and 0 and 3     1 or 0 or 3
  0 and 2 and 3     0 or 1 or 2
  """
+
+
+cadena = "hola mundo cruel"
+print("mayusculas =>", cadena.upper())
+print("capitalizar =>", cadena.capitalize())
+print("capitalizar =>", cadena.title())
+print("conteo =>", cadena.count("o"))
+print("verificar =>", "12345".isdecimal())

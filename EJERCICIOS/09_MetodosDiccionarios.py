@@ -80,10 +80,12 @@ Calificaciones.pop("Josefina")
 Calificaciones.pop("Juan")
 
 # d)
-reprobados = Calificaciones.copy()
-for clave, valor in reprobados.items():
+copia = Calificaciones.copy()
+reprobados = {}
+
+for clave, valor in copia.items():
     if valor >= 3:
-        reprobados.popitem()
+        reprobados.append(clave, valor)
         
 print(reprobados)
 
