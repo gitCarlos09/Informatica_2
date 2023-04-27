@@ -59,9 +59,14 @@ def graficar(x, y, titulo, limitex, limitey, legenda):
     #plt.show()                                 #mostrar figura
     plt.close()
 
+x4=np.arange (0, 10, 0.00001)
+y4=np.tan(x4)
+
 
 graficar(x0, y0, "Funcion 1", (0,90), (0,12),  "y = x ^ (0.5)")
 graficar(x1, y1, "Funcion 2", (0,10), (0,2),   "y = sin²(x) + 1")
 graficar(x2, y2, "Funcion 3", (-5,5), (0, 3),  "y = e ^ (-1/x)")
 graficar(x3, y3, "Funcion 4", (-5,5), (-1, 1), "y = 1/x")
+graficar(x4, y4, "Funcion 5", (0, 10),(0, 10), "y = pi ^ 2")
+
 
