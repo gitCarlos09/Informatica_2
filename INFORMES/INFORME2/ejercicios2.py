@@ -253,14 +253,14 @@ Almacene su respuesta en un listado llamado funciones, de la siguiente manera:
 
 print("\n----- EJERCICIO 3 -----")
 
-def obtenerMultiplos (numero_entero):
+def obtenerMultiplos (numero_pedido):
     multiplos = []
     for i in range (1, 11):
         n_multiplo = numero_pedido * i
         multiplos.append(n_multiplo)
     return multiplos
 
-def obtenerDivisores (numero_entero):
+def obtenerDivisores (numero_pedido):
     divisores = []
     for i in range (2, numero_pedido - 1):
         if numero_pedido % i == 0:
