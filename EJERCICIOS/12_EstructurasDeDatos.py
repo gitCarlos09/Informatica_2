@@ -67,7 +67,7 @@ A = |9,0,1,3|    b=|2|
 resuelva la ecuacion Ax = b
 Utilizando la funcion numpy.linalg.solve()
 """
-"""
+
 A = numpy.array ([[1, 3, 5, 7],
                   [9, 0, 1, 3],
                   [5, 7, 9, 0],
@@ -75,17 +75,17 @@ A = numpy.array ([[1, 3, 5, 7],
 
 b = numpy.array ([1, 2, 3, 4])
 
-ecuacion = numpy.linalg.solve((A), (b))
-print("Las soluciones son:", ecuacion)
-grafica(ecuacion, True)
-"""
+x = numpy.linalg.solve(A, b)
+
+print("Las soluciones son:", x)
+
+
 """
 cree una matriz de 10 filas por 5 columnas con numeros aleatorios
 """
 
-dataMatrix = numpy.random.random (size = 5)
-
-print(dataMatrix)
+dataMatrix = numpy.random.random (50).reshape(10, 5)
+print("Matriz aleatoria:", dataMatrix)
 
 
 """
@@ -94,6 +94,67 @@ convierta la matriz resultante en un arreglo1D (vector)
 grafique el vector con graficar()
 """
 
+matriz3x3 = numpy.ones(9).reshape(3,3)
+matrizIdentidad = numpy.identity(3)
+
+suma = (matriz3x3 + matrizIdentidad).reshape(9, 1)
+grafica(suma, True)
+
+""" genere 10000 numeros aleatorios con una distribucion uniforme
+    muestre el histograma usando histrograma()
+"""
+
+aleatorios = numpy.random.uniform(size = 10000)
+histograma(aleatorios, False)
 
 
+"""    Busque funciones integradas de numpy para dibujar
+       
+       Si x = numpy.arange(-5,5,0.1)
+        * y1 =  sen(x)
+        * y2 =  cos(x)
+        * y3 =  tan(x)
+        * y4 =  sinh(x)
+        * y5 =  cosh(x)
+        * y6 =  |x|     (valor absoluto)  """
+
+
+x = numpy.arange(-5,5,0.1)
+y1 = numpy.sin(x)
+y2 = numpy.cos(x)
+y3 = numpy.tan(x)
+y4 = numpy.sinh(x)
+y5 = numpy.cosh(x)
+y6 = numpy.absolute(x)
+
+
+plt.figure(figsize=(10, 5))
+plt.grid()
+
+plt.subplot(2,3,1)
+plt.plot(x,y1, label= "y(x) = sin(x)")
+plt.grid()
+plt.legend()
+plt.subplot(2,3,2)
+plt.plot(x,y2, label= "y(x) = cos(x)")
+plt.grid()
+plt.legend()
+plt.subplot(2,3,3)
+plt.plot(x,y3, label= "y(x) = tan(x)")
+plt.grid()
+plt.legend()
+plt.subplot(2,3,4)
+plt.plot(x,y4, label= "y(x) = sinh(x)")
+plt.grid()
+plt.legend()
+plt.subplot(2,3,5)
+plt.plot(x,y5, label= "y(x) = cosh(x)")
+plt.grid()
+plt.legend()
+plt.subplot(2,3,6)
+plt.plot(x,y6, label= "y(x) = |x|")
+plt.grid()
+plt.legend()
+
+plt.show()
 
